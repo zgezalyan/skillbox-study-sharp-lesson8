@@ -55,7 +55,8 @@ namespace Lists
             {
                 if (list[i] > leftBorder && list[i] < rightBorder)
                 {
-                    list.RemoveAt(i);
+                    // Console.WriteLine($"{i} item removed: {list[i]}");
+                    list.RemoveAt(i);                    
                     continue;
                 }
                 i++;
